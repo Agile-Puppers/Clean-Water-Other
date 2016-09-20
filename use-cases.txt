@@ -1,7 +1,8 @@
 
 Possible things to do in application:
 
-- Login (May fail?)
+- Login (May fail)
+- Register (May fail)
 - View water availability
 - Report on water availability
 - Report on water purity level (if user is rank WORKER or higher)
