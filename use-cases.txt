@@ -1,0 +1,13 @@
+
+Possible things to do in application:
+
+- Login (May fail?)
+- View water availability
+- Report on water availability
+- Report on water purity level (if user is rank WORKER or higher)
+- View historical reports (if user is rank MANAGER or higher)
+- Delete individual reports (if user is rank MANAGER or higher)
+- Delete an account (if user is rank ADMIN)
+- Ban a user from making reports (if user is rank ADMIN)
+- Unblock a locked account (if user is rank ADMIN) if it has been locked due to too many login attempts
+- View security log (if user is rank ADMIN)
