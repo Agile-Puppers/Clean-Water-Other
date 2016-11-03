@@ -1,5 +1,5 @@
 
-# Team 12 - M9 - Contracts
+# Team 12 - M9 - Method Contracts
 
 
 ## Ridoy Majumdar
