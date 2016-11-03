@@ -27,3 +27,13 @@
 **Preconditions**: Current screen is `LoginScreen`. Also, this method should only be called by JavaFX automatically when the user clicks the “Login” button
 
 **Postconditions**: Current screen is either `HomeScreen` (on a successful login attempt) or remains on `LoginScreen` (on an unsuccessful login attempt); `App.current.user` is now set to the user that just logged in (if successful)
+
+## Cal Stephens
+
+`agilepuppers.cleanwater.model.TextDatabase->queryAllEntries()`
+
+**Signature**: `public List<T> queryAllEntries() throws IOException`
+
+**Preconditions**: The TextDatabase must be initialized with a file path and a model factory.
+
+**Postconditions**: If the specified file doesn't exist or cannot be accessed, an `IOException` will be thrown. Otherwise, the method will return a List of model objects as parsed by the database's model factory.
