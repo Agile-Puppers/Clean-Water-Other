@@ -47,3 +47,12 @@
 **Preconditions**: The TextDatabase must be initialized with a file path and a model factory.
 
 **Postconditions**: If the specified file doesn't exist or cannot be accessed, an `IOException` will be thrown. Otherwise, the method will return a List of model objects as parsed by the database's model factory.
+
+## Jeremy Winter
+`agilepuppers.cleanwater.controller.LoginScreen->validate()`
+
+**Signature**: `private UserAccount validate(String username, String password)`
+
+**Preconditions**: Current screen is `LoginScreen`. This method should only be called by `handleLogin()`.
+
+**Postconditions**: Upon successful login, `handleLogin` receives the proper user account and sets that as the current user. Otherwise, an error message is displayed. 
